@@ -112,3 +112,20 @@ setInterval(updateCounter1, 100);
 
   
 // slider
+
+// ================= HEADER CODE START ======================
+// var header=document.getElementById("header")
+var head=document.querySelectorAll("#header")
+head.forEach((e)=>{
+    console.log(e);
+    
+})
+console.log(head);
+
+fetch("/header.html")
+.then(data => data.text())
+.then((e)=>{
+header.innerHTML=e
+  
+})
+// ================= HEADER CODE END ======================
