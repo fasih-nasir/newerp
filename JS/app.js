@@ -65,32 +65,6 @@ function updateCounter() {
     }
   
 }
-function updateCounter1(){
-
-    document.getElementById("counter1").innerHTML = count1  ;
-      document.getElementById("counter2").innerHTML = count2 ;
-      document.getElementById("counter3").innerHTML = count3;
-      document.getElementById("counter4").innerHTML = count4 ;
-    count1+=7;
-    count2+=3;
-    count3+=9;  
-      count4+=17;
-
- 
-    if (count1 > 999) {
-        count1 = 0; // Reset to 0 after reaching 25
-    }
-    if (count2 > 151) {
-        count2 = 0; // Reset to 0 after reaching 25
-    }  if (count3 > 245) {
-        count3 = 0; // Reset to 0 after reaching 25
-    }  if (count4 > 1090) {
-        count4 = 0; // Reset to 0 after reaching 25
-    }
-} 
-setInterval(updateCounter, 800);
-setInterval(updateCounter1, 100);
-
 
 // var form=document.getElementById("form");
 // form.addEventListener("submit",(e)=>{
@@ -117,10 +91,8 @@ setInterval(updateCounter1, 100);
 // var header=document.getElementById("header")
 var head=document.querySelectorAll("#header")
 head.forEach((e)=>{
-    console.log(e);
-    
+
 })
-console.log(head);
 
 fetch("/header.html")
 .then(data => data.text())
@@ -129,7 +101,19 @@ header.innerHTML=e
   
 })
 // ================= HEADER CODE END ======================
+//   FETCH API FOR COURSE START
+fetch("https://opensheet.elk.sh/1zQtyIrGqoGVwtZMBM81BzyBM-N3M0KANewvmGGDljJk/Sheet1")
 
+.then(res => res.json())
+.then((data) => {
+  console.log(data);
+})
+.catch((error) => {
+  console.error("Error fetching data: ", error);
+});
+
+
+//   FETCH API FOR COURSE END
 
 var swiper = new Swiper(".mySwiper", {
     slidesPerView: 3,
@@ -151,3 +135,7 @@ var swiper = new Swiper(".mySwiper", {
       }
     }
   });
+
+
+
+

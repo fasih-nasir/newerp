@@ -1233,7 +1233,7 @@ footer>div>div>div>img {
 }
 
 .aboutback {
-  background-color: #6095FF;
+  background-color: var(--color1);
   transform: scale(1) !important;
   transition: 0.9s ease-in-out !important;
   background-position: center !important;
@@ -1242,7 +1242,7 @@ footer>div>div>div>img {
   background-size: cover !important;
   background-repeat: no-repeat;
   background-attachment: fixed !important;
-  height: 80vh;
+  height: 90vh;
   z-index: -1;
 }
 
