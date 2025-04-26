@@ -102,7 +102,7 @@ header.innerHTML=e
 })
 // ================= HEADER CODE END ======================
 //   FETCH API FOR COURSE START
-fetch("https://opensheet.elk.sh/1zQtyIrGqoGVwtZMBM81BzyBM-N3M0KANewvmGGDljJk/Sheet1")
+fetch("https://opensheet.elk.sh/1zQtyIrGqoGVwtZMBM81BzyBM-N3M0KANewvmGGDljJk/Sheet2")
 
 .then(res => res.json())
 .then((data) => {
