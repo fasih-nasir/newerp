@@ -886,21 +886,6 @@ iframe {
   height: 80vh !important;
 }
 
-footer>footer {
-  background-color: #313131 !important;
-
-}
-
-footer {
-  background-color: #313131 !important;
-  z-index: 1111 !important;
-  font-size: 14px;
-  color: var(--text-color1);
-}
-
-footer>div>div>div>h5 {
-  color: var(--color1) !important;
-}
 
 .list-unstyled>li>a {
   font-size: 15px;
@@ -1153,12 +1138,17 @@ width: 100%;
   box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px !important;
 }
 
-footer>div>div>div>img {
-  height: 150px !important;
-
-  object-fit: cover !important;
-  background-size: cover !important;
+footer a{
+  text-decoration: none;
+ }
+ footer .list-unstyled li{
+ 
+   margin: 10px 0px !important;
 }
+ footer .list-unstyled li a{
+  color: #504f4f !important;
+  font-weight: 400 !important;
+ }
 
 .frameworkpic {
   height: 285px !important;
