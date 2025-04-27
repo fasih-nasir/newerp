@@ -121,7 +121,7 @@ fetch("https://opensheet.elk.sh/1zQtyIrGqoGVwtZMBM81BzyBM-N3M0KANewvmGGDljJk/She
 
 
 //   FETCH API FOR COURSE END
-
+if(swiper)
 var swiper = new Swiper(".mySwiper", {
     slidesPerView: 3,
     spaceBetween: 24,
@@ -157,13 +157,17 @@ var swiper = new Swiper(".mySwiper", {
     formData.forEach(function(value, key) {
       data[key] = value;
     });
-    
+    console.log('Form Data:', data);
     fetch('https://script.google.com/macros/s/AKfycbybngREkl6zpDrjr3s-rIhiH0TQHGlQGYxNHOq6uLrCgeo_TB4MBn2mJahB3XWgZ1OkBg/exec', {
       method: 'POST',
       body: new URLSearchParams(data)
     })
     .then(response => response.text())
-    .then(data => alert('Form submitted successfully!'))
+    .then(data => {
+      // Clear the form after successful submission
+      document.getElementById("contactForm").reset();
+      alert('Form submitted successfully!');
+    })
     .catch(error => alert('Error submitting form: ' + error));
   });
   // ============================ CONTACT FORM DATA END ==================================
