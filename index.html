@@ -513,32 +513,28 @@
         <div class="col-md-6 col-12 d-flex flex-row justify-content-lg-end justify-content-center align-items-center">
           <div class="bg-white p-4 rounded shadow-sm  col-11 d-flex flex-row justify-content-lg-end justify-content-center align-items-center">
         
-            <form class="col-12">
+            <form class="col-12" id="contactForm">
               <div class="mb-3">
                 <label for="name" class="form-label">Name</label>
-                <input type="text" class="form-control rounded-pill" id="name" placeholder="Enter Name...">
+                <input type="text" class="form-control rounded-pill" id="name" name="name" placeholder="Enter Name...">
               </div>
               <div class="mb-3">
                 <label for="email" class="form-label">Email</label>
-                <input type="email" class="form-control rounded-pill" id="email" placeholder="Enter Email...">
+                <input type="email" class="form-control rounded-pill" id="email" name="email" placeholder="Enter Email...">
               </div>
               <div class="mb-3">
                 <label for="phone" class="form-label">Phone</label>
-                <input type="tel" class="form-control rounded-pill" id="phone" placeholder="Enter Your Number...">
+                <input type="tel" class="form-control rounded-pill" id="phone" name="phone" placeholder="Enter Your Number...">
               </div>
               <div class="mb-3">
                 <label for="desc" class="form-label">Message</label>
-                <textarea class="form-control rounded" id="desc" rows="4"
-                  placeholder="Enter Your Message..."></textarea>
+                <textarea class="form-control rounded" id="desc" name="desc" rows="4" placeholder="Enter Your Message..."></textarea>
               </div>
-              <button
-              class="mt-3 btn3 col-lg-4 mx-auto bg-white shadow-sm border border-1 col-6 p-2 d-flex flex-row align-items-center justify-content-center ">
-           Send 
-              <a href="">
-              <i class="fa-solid fa-paper-plane icon-hover col-lg-12">
-              
-              </i>
-              </a>
+              <button type="submit" class="mt-3 btn3 col-lg-4 mx-auto bg-white shadow-sm border border-1 col-6 p-2 d-flex flex-row align-items-center justify-content-center">
+                Send
+                <a href="">
+                  <i class="fa-solid fa-paper-plane icon-hover col-lg-12"></i>
+                </a>
               </button>
             </form>
           </div>

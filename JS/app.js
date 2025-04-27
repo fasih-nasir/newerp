@@ -146,3 +146,24 @@ var swiper = new Swiper(".mySwiper", {
 
 
 
+
+
+  // ============================ CONTACT FORM DATA START ================================
+  document.getElementById("contactForm").addEventListener("submit", function(event) {
+    event.preventDefault();
+    
+    var formData = new FormData(this);
+    var data = {};
+    formData.forEach(function(value, key) {
+      data[key] = value;
+    });
+    
+    fetch('https://script.google.com/macros/s/AKfycbybngREkl6zpDrjr3s-rIhiH0TQHGlQGYxNHOq6uLrCgeo_TB4MBn2mJahB3XWgZ1OkBg/exec', {
+      method: 'POST',
+      body: new URLSearchParams(data)
+    })
+    .then(response => response.text())
+    .then(data => alert('Form submitted successfully!'))
+    .catch(error => alert('Error submitting form: ' + error));
+  });
+  // ============================ CONTACT FORM DATA END ==================================
