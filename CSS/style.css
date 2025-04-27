@@ -1563,3 +1563,10 @@ background-color: white;
 .icon_div_fix a i{
 color: var(--color1);
 }
+
+.about_Div_O img{
+height: 300px;
+background-size: cover;
+object-fit: cover;
+background-position: center;
+}
