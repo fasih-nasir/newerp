@@ -134,7 +134,7 @@ height: 100% !important;
 
 .fixtop {
   box-shadow: rgba(0, 0, 0, 0.15) 0px 3px 3px 0px !important;
-  transition: 0.4s ease-in-out !important;
+  transition: 0.2s ease-in-out !important;
   /* background-color: white !important; */
   /* -webkit-backdrop-filter: blur(5px); */
   backdrop-filter: blur(20px);
@@ -311,10 +311,12 @@ transition: 0.8s ease-in-out !important;
   font-size: 16px !important;
   transition: 0.2s ease-in-out !important;
 }
-.position_sticky{
-  position:sticky !important;
-  height:max-content !important;
-  top:10%
+@media (min-width:992px) {
+  .position_sticky{
+    position:sticky !important;
+    height:max-content !important;
+    top:10%
+  }
 }
 li>.dropdown-item:hover {
   color: white !important;
@@ -1482,10 +1484,7 @@ footer>div>div>div>img {
   background-color: var(--color1) !important;
 }
 
-.col-org {
-  font-weight: 700 !important;
 
-}
 
 
 @media (max-width:992px) {
@@ -1527,11 +1526,6 @@ footer>div>div>div>img {
   margin-bottom: 10px;
 }
 
-.position_sticky{
-  position: sticky;
-  height: max-content;
-  top: 15%;
-}
 
 .apply_now_bnt{
   position: sticky;
@@ -1542,4 +1536,11 @@ footer>div>div>div>img {
 
 .col_9_course_page{
   font-size: 17px !important;
+}
+.img_course_page{
+  height: 70vh !important;
+  background-size: cover !important;
+  object-fit: cover !important;
+  background-position: center;
+  background-attachment: fixed !important;
 }

@@ -88,11 +88,8 @@ function updateCounter() {
 // slider
 
 // ================= HEADER CODE START ======================
-// var header=document.getElementById("header")
-var head=document.querySelectorAll("#header")
-head.forEach((e)=>{
+var head=document.getElementById("#header")
 
-})
 
 fetch("/header.html")
 .then(data => data.text())
@@ -101,12 +98,22 @@ header.innerHTML=e
   
 })
 // ================= HEADER CODE END ======================
+
+// ================= FOOTER CODE START ======================
+var footer=document.getElementById("footer")
+fetch("/footer.html")
+.then(data => data.text())
+.then((e)=>{
+  footer.innerHTML=e
+  
+})
+// ================= FOOTER CODE END ======================
+
 //   FETCH API FOR COURSE START
 fetch("https://opensheet.elk.sh/1zQtyIrGqoGVwtZMBM81BzyBM-N3M0KANewvmGGDljJk/Sheet2")
 
 .then(res => res.json())
 .then((data) => {
-  console.log(data);
 })
 .catch((error) => {
   console.error("Error fetching data: ", error);
