@@ -70,13 +70,9 @@ button {
 
 }
 
-@media (max-width:992px) {
-  .big_nav {
-    top: 10px !important;
-  }
 
 
-}
+
 
 .big_nav {
   top: 0%;
