@@ -26,7 +26,7 @@
     <!-- ==================== NAVBAR ==================== -->
 
     <!-- ==================== NAVBAR ==================== -->
-    <nav class="navbar navbar-expand-lg px-0 py-3 container-fluid d-flex flex-column" id="navbar">
+    <nav class="navbar navbar-expand-lg px-0 py-3 container-fluid d-flex flex-column big_nav" id="navbar">
       <div class="container-fluid">
         <a class="navbar-brand" href="#">
           <img src="assets/Images/logo/logo.png" alt class="col-lg-6 col-5" />
@@ -190,138 +190,141 @@
     </nav>
     <!-- ==================== NAVBAR ==================== -->
     <!-- ==================== OFFCANVAS START==================== -->
-    <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasRight" aria-labelledby="offcanvasRightLabel">
-      <div class="offcanvas-header">
-        <h5 id="offcanvasRightLabel">
-          <img src="assets/Images/logo/logo.png" alt class="col-lg-5 col-5" />
-          <!-- ==================== Replace with actual logo path ==================== -->
-        </h5>
-        <!-- ==================== <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button> ==================== -->
-      </div>
-      <div class="offcanvas-body">
-        <ul class="navbar-nav mx-auto mb-2 mb-lg-0">
+    <div class="navbar offcanvas offcanvas-end d-flex flex-row justify-content-start align-items-center h-100" tabindex="-1" id="offcanvasRight" aria-labelledby="offcanvasRightLabel">
+      
+      <div class="offcanvas-body w-100 ">
+        <ul class="navbar-nav mb-lg-0 ms-auto">
+          <!-- ==================== Home ==================== -->
           <li class="nav-item">
-            <a class="nav-link " aria-current="page" href="index.html">Home</a>
+            <a class="nav-link" href="index.html" aria-current="page">Home</a>
+            <span class="navhover"></span>
           </li>
-          <li class="nav-item dropdown ">
-            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
-              aria-expanded="false">ERP</a>
-            <ul class="dropdown-menu mx-auto">
-              <li>
-                <a class="dropdown-item nav-link" href="about.html">About
-                  ERP</a>
-              </li>
-              <li>
-                <a class="dropdown-item nav-link" href="why-choose-us.html">Why Chose
-                  US</a>
-              </li>
-              <li>
-                <a class="dropdown-item nav-link" href="evolution-of-ERP.html">Evolution of ERP</a>
-              </li>
-              <li>
-                <a class="dropdown-item nav-link" href="ERP-framework.html">Framework of ERP</a>
-              </li>
-              <li>
-                <a class="dropdown-item nav-link" href="certifications.html">Certfication</a>
-              </li>
-              <li>
-                <a class="dropdown-item nav-link" href="assessment-and-methodology.html">Assessment and Methodology</a>
-              </li>
-              <li>
-                <a class="dropdown-item nav-link" href="careers.html">Careers &
-                  Opportunities</a>
-              </li>
-            </ul>
-          </li>
+    
+          <!-- ==================== Courses Dropdown ==================== -->
           <li class="nav-item dropdown">
-            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
-              aria-expanded="false">Memberships</a>
-
-            <ul class="dropdown-menu mx-auto">
-              <li>
-                <a class="dropdown-item nav-link" href="ERP-scout-memberships.html">ERPScout Memberships</a>
-              </li>
-              <li>
-                <a class="dropdown-item nav-link" href="ERP-associate-memberships.html">ERPAssociate
-                  Memberships</a>
-              </li>
-              <li>
-                <a class="dropdown-item nav-link" href="ERP-professional-memberships.html"> ERPProfessional
-                  Memberships</a>
-              </li>
-            </ul>
-          </li>
-          <!-- ====================  ==================== -->
-          <li class="nav-item dropdown">
-            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-              Get Started Certifications
+            <a class="nav-link dropdown-toggle d-flex flex-row justify-content-between d-flex flex-row justify-content-between" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              Courses
             </a>
-            <ul class="dropdown-menu  py-lg-3  p-lg-3 ">
-
-              <h6 class="dropdown-header">ERPSCOUT CERTIFICATIONS</h6>
-              <a class="dropdown-item nav-link" href="ERP-scout-grade-6-certification.html">ERP
-                Scout Grade 6 Certification</a>
-              <a class="dropdown-item nav-link" href="ERP-scout-grade-7-certification.html">ERP
-                Scout Grade 7 Certification</a>
-              <a class="dropdown-item nav-link" href="ERP-scout-grade-8-certification.html">ERP
-                Scout Grade 8 Certification</a>
-              <a class="dropdown-item nav-link" href="ERP-scout-grade-9-certification.html">ERP
-                Scout Grade 9 Certification</a>
-              <a class="dropdown-item nav-link" href="ERP-scout-grade-10-certification.html">ERP
-                Scout Grade 10 Certification</a>
-              <a class="dropdown-item nav-link" href="ERP-scout-grade-10-certification.html">ERP
-                Diploma</a>
-
-              <h6 class="dropdown-header">ERPASSOCIATE CERTIFICATIONS</h6>
-              <a class="dropdown-item nav-link" href="ERP-fundamentals.html">ERP
-                Fundamentals</a>
-              <a class="dropdown-item nav-link" href="ERP-plus.html">ERP+</a>
-              <a class="dropdown-item nav-link" href="true-blue-hacking.html">True
-                Blue Hacking</a>
-              <a class="dropdown-item nav-link" href="true-blue-hacking-plus.html">True
-                Blue Hacking +</a>
-
-              <h6 class="dropdown-header">ERP Training Pakistan PROFESSIONAL</h6>
-              <a class="dropdown-item nav-link" href="ERP-offensive--professional.html">ERP
-                Offensive </a>
-              <a class="dropdown-item nav-link" href="ERP-infrastructure-.html">ERPInfrastructure
-                </a>
-              <a class="dropdown-item nav-link" href="ERP-network--professional.html">ERP
-                Network </a>
-              <a class="dropdown-item nav-link" href="ERP-application-.html">ERP
-                Application </a>
-              <a class="dropdown-item nav-link" href="ERP--architecture.html">ERP
-                 Architecture</a>
-              <a class="dropdown-item nav-link" href="ERP--engineering.html">ERP
-                 Engineering</a>
-              <a class="dropdown-item nav-link" href="ERP--management.html">ERP
-                 Management</a>
-
-              <h6 class="dropdown-header">ERPNETWORK</h6>
-              <a class="dropdown-item nav-link" href="ERP-partners.html">ERP
-                Partners</a>
-              <a class="dropdown-item nav-link" href="become-a-partner.html">Become
-                a Partner</a>
-              <a class="dropdown-item nav-link" href="ERP-trainers.html">ERP
-                Trainers</a>
-              <a class="dropdown-item nav-link" href="become-a-trainer.html">Become
-                a Trainer</a>
-
+            <span class="navhover"></span>
+            <ul class="dropdown-menu  py-3 ">
+              <div class="container d-flex flex-column justify-content-between">
+                <!-- ==================== SAP S4 HANA ==================== -->
+                <div class="col-lg-4 col-md-6">
+                  <h6 class="dropdown-header">Sap S4 Hana</h6>
+                  <a class="dropdown-item" href="saps4hanaMM.html">Sap S4 Hana MM</a>
+                  <a class="dropdown-item" href="saps4hanasd-salesanddistribution.html">Sap S4 Hana SD</a>
+                  <a class="dropdown-item" href="#">Sap S4 Hana ABAP</a>
+                  <a class="dropdown-item" href="saps4hanabasis.html">Sap S4 Hana BASIS</a>
+                  <a class="dropdown-item" href="saps4hanafitraining.html">Sap S4 Hana FI</a>
+                  <a class="dropdown-item" href="#">Sap S4 Hana BI/BW</a>
+                </div>
+    
+                <!-- ==================== Accounting ==================== -->
+                <div class="col-lg-4 col-md-6">
+                  <h6 class="dropdown-header">Accounting</h6>
+                  <a class="dropdown-item" href="quickbookstrainingpakistan.html">QuickBooks</a>
+                  <a class="dropdown-item" href="#">Peachtree</a>
+                  <a class="dropdown-item" href="#">Advanced Excel</a>
+                  <a class="dropdown-item" href="#">Sage</a>
+                  <a class="dropdown-item" href="#">Xero</a>
+                  <a class="dropdown-item" href="#">MYOB</a>
+                </div>
+    
+                <!-- ==================== IT Courses ==================== -->
+                <div class="col-lg-4 col-md-6">
+                  <h6 class="dropdown-header">It Courses</h6>
+                  <a class="dropdown-item" href="#">QuickBooks</a>
+                  <a class="dropdown-item" href="#">Peachtree</a>
+                  <a class="dropdown-item" href="#">Advanced Excel</a>
+                  <a class="dropdown-item" href="#">Sage</a>
+                  <a class="dropdown-item" href="#">Xero</a>
+                  <a class="dropdown-item" href="#">MYOB</a>
+                </div>
+              </div>
             </ul>
-
           </li>
-
-          <!-- ====================  ==================== -->
+    
+          <!-- ==================== Services Dropdown ==================== -->
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle d-flex flex-row justify-content-between" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              Service
+            </a>
+            <span class="navhover"></span>
+            <ul class="dropdown-menu  py-3 p-lg-3 mx-auto">
+              <div class="container d-flex flex-column">
+                <!-- ==================== Software ==================== -->
+                <div class="col-lg-3 col-md-6">
+                  <h6 class="dropdown-header">Software</h6>
+                  <a class="dropdown-item" href="#">Engineering</a>
+                  <a class="dropdown-item" href="#">Accounting</a>
+                  <a class="dropdown-item" href="#">ERP</a>
+                </div>
+    
+                <!-- ==================== Network ==================== -->
+                <div class="col-lg-3 col-md-6 d-flex flex-column ">
+                  <h6 class="dropdown-header ">Network</h6>
+                  <a class="dropdown-item " href="quickbookstrainingpakistan.html">Networking</a>
+                </div>
+    
+                <!-- ==================== System ==================== -->
+                <div class="col-lg-3 col-md-6">
+                  <h6 class="dropdown-header">System</h6>
+                  <a class="dropdown-item" href="quickbookstrainingpakistan.html">Laptop / PC</a>
+                </div>
+              </div>
+            </ul>
+          </li>
+    
+          <!-- ==================== SAP S4 Hana Additional Options ==================== -->
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle d-flex flex-row justify-content-between" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              SAP S4 Hana
+            </a>
+            <span class="navhover"></span>
+            <ul class="dropdown-menu  py-3 p-lg-3 mx-auto">
+              <div class="container d-flex flex-column">
+                <!-- ==================== Sap Hana Access ==================== -->
+                <div class="col-lg-6 col-md-6">
+                  <h6 class="dropdown-header">Sap Hana Access</h6>
+                  <a class="dropdown-item" href="saphanaaccess.html">Get SAP Access</a>
+                  <a class="dropdown-item" href="saphanademoaccess.html">Free Demo Access</a>
+                </div>
+    
+                <!-- ==================== SAP IDES Installation ==================== -->
+                <div class="col-lg-6 col-md-6">
+                  <h6 class="dropdown-header">SAP IDES Installation</h6>
+                  <a class="dropdown-item" href="sapidesinstallation.html">SAP IDES EHP 6</a>
+                  <a class="dropdown-item" href="sapidesinstallation.html">SAP IDES EHP 7</a>
+                  <a class="dropdown-item" href="sapidesinstallation.html">SAP IDES EHP 8</a>
+                </div>
+              </div>
+            </ul>
+          </li>
+    
+          <!-- ==================== Software Dropdown ==================== -->
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle d-flex flex-row justify-content-between" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              Software
+            </a>
+            <span class="navhover"></span>
+            <ul class="dropdown-menu  py-3 ">
+              <a class="dropdown-item" href="saphanademoaccess.html">Software List</a>
+            </ul>
+          </li>
+    
+          <!-- ==================== About and Contact Us ==================== -->
           <li class="nav-item">
-            <a class="nav-link" aria-current="page" href="blog.html">Blog</a>
+            <a class="nav-link" href="about.html">About</a>
+            <span class="navhover"></span>
           </li>
           <li class="nav-item">
-            <a class="nav-link" aria-current="page" href="contact-us.html">Contact
-              Us</a>
+            <a class="nav-link" href="contact-us.html">Contact Us</a>
+            <span class="navhover"></span>
           </li>
         </ul>
       </div>
     </div>
+    
     <!-- ==================== OFFCANVAS END==================== -->
     <!-- ! NOTE THIS CONTENT REMAIN SAME ALL THE PAGES  -->
   </header>
