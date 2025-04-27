@@ -17,6 +17,7 @@ fetch("https://opensheet.elk.sh/apihere/Sheet1")
 
 // <div class="mb-3 d-flex align-items-center gap-2">
 //                 <div class="bg-col rounded-circle" style="width:10px; height:10px;"></div>
-//                 <h5 class="col-org mb-0">About</h5>
+//                             <h2 class="col-org mb-0">About</h2>
+
 //               </div>
               
