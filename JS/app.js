@@ -1,3 +1,17 @@
+// ======= LOADER JS START ======= 
+document.addEventListener("DOMContentLoaded", () => {
+  const loader = document.getElementById("loader");
+  console.log(loader);
+  
+  if (loader) {
+    setTimeout(() => {
+      loader.classList.add("rem");
+    }, 2300); // 3 seconds
+  }
+});
+// ======= LOADER JS END ======= 
+
+
 window.addEventListener("scroll", function() {
 var a=this.document.body.scrollHeight -this.window.innerHeight;
 const scrollProgress = (window.scrollY / a) * 99;
