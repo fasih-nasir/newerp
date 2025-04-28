@@ -2,12 +2,6 @@ window.addEventListener("scroll", function() {
 var a=this.document.body.scrollHeight -this.window.innerHeight;
 const scrollProgress = (window.scrollY / a) * 99;
 document.getElementById("nav-width").style.width=`${scrollProgress}vw`;
-const fixeeElement = document.getElementById("fixee");
-if (scrollProgress >= 98) {
-    fixeeElement.innerHTML = `<i class="fa-solid fa-arrow-up"></i>`;
-  } else {
-    fixeeElement.innerHTML = `${scrollProgress.toFixed(0)}%`;
-  }
 
     // console.log();
 
