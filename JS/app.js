@@ -149,7 +149,9 @@ var swiper = new Swiper(".mySwiper", {
 
 
   // ============================ CONTACT FORM DATA START ================================
-  document.getElementById("contactForm").addEventListener("submit", function(event) {
+  var contact_form=document.getElementById("contactForm");
+  if(contact_form)
+  contact_form.addEventListener("submit", function(event) {
     event.preventDefault();
     
     var formData = new FormData(this);
@@ -157,17 +159,47 @@ var swiper = new Swiper(".mySwiper", {
     formData.forEach(function(value, key) {
       data[key] = value;
     });
-    console.log('Form Data:', data);
-    fetch('https://script.google.com/macros/s/AKfycbybngREkl6zpDrjr3s-rIhiH0TQHGlQGYxNHOq6uLrCgeo_TB4MBn2mJahB3XWgZ1OkBg/exec', {
+    data.formType = 'contactForm';
+    fetch('https://script.google.com/macros/s/AKfycbwDYRbYhxMakaxkd_sPNQDBNdmohZIyu24DRGkHzSKpk8yFjG_mwJCApkA76HQTnLsn2A/exec', {
       method: 'POST',
       body: new URLSearchParams(data)
     })
     .then(response => response.text())
     .then(data => {
       // Clear the form after successful submission
-      document.getElementById("contactForm").reset();
+      contact_form.reset();
       alert('Form submitted successfully!');
     })
     .catch(error => alert('Error submitting form: ' + error));
   });
   // ============================ CONTACT FORM DATA END ==================================
+
+
+  
+  // ============================ APPLY FORM DATA START ================================
+  var apply_form=document.getElementById("applyform");
+  if(apply_form)
+  apply_form.addEventListener("submit", function(event) {
+    event.preventDefault();
+    
+    var formData = new FormData(this);
+    var data = {};
+    formData.forEach(function(value, key) {
+      data[key] = value;
+    });
+    data.formType = 'applyform';
+    console.log(data);
+    
+    fetch('https://script.google.com/macros/s/AKfycbwDYRbYhxMakaxkd_sPNQDBNdmohZIyu24DRGkHzSKpk8yFjG_mwJCApkA76HQTnLsn2A/exec', {
+      method: 'POST',
+      body: new URLSearchParams(data)
+    })
+    .then(response => response.text())
+    .then(data => {
+      // Clear the form after successful submission
+      apply_form.reset();
+      alert('Form submitted successfully!');
+    })
+    .catch(error => alert('Error submitting form: ' + error));
+  });
+  // ============================ APPLY FORM DATA END ==================================
