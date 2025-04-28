@@ -43,52 +43,7 @@ document.getElementById("nav-width").style.width=`${scrollProgress}vw`;
     }
 });
 
-let count = 0;
-let count1 = 0;
-let count2 = 0;
-let count3 = 0;
-let count4 = 0;
 
-// const counterElement=document.querySelectorAll(".counter")
-
-
-const counterElement1 = document.getElementById("counter1");
-const counterElement2 = document.getElementById("counter2");
-const counterElement3 = document.getElementById("counter3");
-const counterElement4 = document.getElementById("counter4");
-
-
-
-function updateCounter() {
-    // counterElement.forEach((E)=>{
-
-    //         E.innerHTML=count
-    // })
-
-   
-    count++;
-
-    if (count > 25) {
-        count = 0; // Reset to 0 after reaching 25
-    }
-  
-}
-
-// var form=document.getElementById("form");
-// form.addEventListener("submit",(e)=>{
-//     e.preventDefault();
-//    var arr=[];
-//    for (let index = 0; index < e.target.length; index++) {
-//     const element = e.target[index].value;
-//     // console.log(element);
-//     arr.push(element)
-    
-//    }
-  
-//    console.log(arr);
-   
-    
-// })
 
 // slider
 
@@ -96,13 +51,14 @@ function updateCounter() {
 // slider
 
 // ================= HEADER CODE START ======================
-var head=document.getElementById("#header")
+var head=document.getElementById("header")
 
 
 fetch("/header.html")
 .then(data => data.text())
+
 .then((e)=>{
-header.innerHTML=e
+head.innerHTML=e
   
 })
 // ================= HEADER CODE END ======================
