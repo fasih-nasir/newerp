@@ -1,7 +1,7 @@
 window.addEventListener("scroll", function() {
 var a=this.document.body.scrollHeight -this.window.innerHeight;
 const scrollProgress = (window.scrollY / a) * 99;
-this.document.getElementById("nav-width").style.width=`${scrollProgress}vw`;
+document.getElementById("nav-width").style.width=`${scrollProgress}vw`;
 const fixeeElement = document.getElementById("fixee");
 if (scrollProgress >= 98) {
     fixeeElement.innerHTML = `<i class="fa-solid fa-arrow-up"></i>`;
@@ -119,29 +119,6 @@ fetch("https://opensheet.elk.sh/1zQtyIrGqoGVwtZMBM81BzyBM-N3M0KANewvmGGDljJk/She
   console.error("Error fetching data: ", error);
 });
 
-
-//   FETCH API FOR COURSE END
-if(swiper)
-var swiper = new Swiper(".mySwiper", {
-    slidesPerView: 3,
-    spaceBetween: 24,
-    pagination: {
-      el: ".swiper-pagination",
-      clickable: true,
-    },
-    breakpoints: {
-      // Responsive for mobile/tablet
-      0: {
-        slidesPerView: 1,
-      },
-      640: {
-        slidesPerView: 2,
-      },
-      768: {
-        slidesPerView: 3,
-      }
-    }
-  });
 
 
 
