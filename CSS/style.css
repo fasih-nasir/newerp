@@ -1229,7 +1229,7 @@ footer a{
   background-size: cover !important;
   background-repeat: no-repeat;
   background-attachment: fixed !important;
-  height: 90vh;
+  height: 60vh;
   z-index: -1;
 }
 

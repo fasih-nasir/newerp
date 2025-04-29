@@ -65,12 +65,11 @@
             </div>
             <!-- ====================== ================ TRAINER END ========================= -->
 
-            <div class="mb-3 d-flex justify-content-between border-bottom py-2 border-1">
+            <div class="mb-3 d-flex justify-content-between border-bottom py-2 border-1 align-items-center">
               <h6 class="mb-0 fw-normal ">Course Fee</h6>
-              <a href="https://wa.me/03122811963" class="text-decoration-none" target="_blank">
-                <h6 class="mb-0 fw-normal col-org  ">Request for Price</h6>
-              </a>
-            </div>
+              <button type="button" class="btn text-decoration-underline col-org" data-bs-toggle="modal" data-bs-target="#exampleModal" data-bs-whatever="@getbootstrap">Ask Fee</button>
+                   </div>
+       
             <!-- ====================== ================ TRAINER END ========================= -->
 
             <div class="mb-3 d-flex justify-content-between border-bottom py-2 border-1">
@@ -196,7 +195,54 @@
                 </a>
               </button>
             </div>
-            <!-- ====================== APPLY-NOW END ====================== -->
+        <!-- ============================= MODEAL START ==================================== -->
+
+<div class="modal show" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="false">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-body">
+        <h4 class="text-center">Fill This Form</h4>
+        <form id="queryform">
+          <div class="mb-3">
+            <input type="text" class="form-control" id="name" name="name" placeholder="Your Name">
+          </div>
+          <div class="mb-3">
+            <input type="text" class="form-control" id="number" name="number" placeholder="Your number">
+          </div>
+          <div class="mb-3">
+            <select class="form-select" name="course" id="course">
+              <option value="" selected disabled>Select Course</option>
+              <option value="saps4hanaMM">Sap S4 Hana MM</option>
+              <option value="saps4hanaSD">Sap S4 Hana SD</option>
+              <option value="saps4hanaABAP">Sap S4 Hana ABAP</option>
+              <option value="saps4hanaBASIS">Sap S4 Hana BASIS</option>
+              <option value="saps4hanaFI">Sap S4 Hana FI</option>
+              <option value="saps4hanaBI_BW">Sap S4 Hana BI/BW</option>
+              <option value="quickbooks">QuickBooks</option>
+              <option value="peachtree">Peachtree</option>
+              <option value="advancedExcel">Advanced Excel</option>
+              <option value="sage">Sage</option>
+              <option value="xero">Xero</option>
+              <option value="myob">MYOB</option>
+            </select>
+            
+          </div>
+          <div class="mb-3">
+            <textarea class="form-control" id="message" name="message" placeholder="Any Query:"></textarea>
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn bg-transparent text-dark" data-bs-dismiss="modal">Close</button>
+            <button type="submit" class="btn bg-col text-white">Send message</button>
+          </div>
+        </form>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+<!--===============================MOEAL END =============================================  -->
+
 
           </div>
 
