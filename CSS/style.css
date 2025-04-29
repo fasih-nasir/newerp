@@ -1528,15 +1528,8 @@ footer a{
   background-position: center;
   background-attachment: fixed !important;
 }
-@media (min-width:992px) {
-.icon_div_fix{
-  height: 10%;
 
-}
-.icon_div_fix:hover{
-  height: 28%;
-}
-}
+
 .icon_div_fix{
   z-index: 22222;
   position: fixed;
@@ -1680,3 +1673,17 @@ background-position: center;
 
 
 /* ============== LOADER CSS END ================== */
+
+.modal 
+{
+  background-color: rgba(0, 0, 0, 0.041) !important;
+  backdrop-filter: blur(4px);
+  transition: 0.6s ease-in-out !important;
+  z-index: 11111111111111111111 !important;
+}
+
+.modal-dialog ,.modal-content{
+  top: 15%;
+  transition: 0.6s ease-in-out !important;
+
+}

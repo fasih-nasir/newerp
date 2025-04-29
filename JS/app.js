@@ -1,7 +1,8 @@
+
 // ======= LOADER JS START ======= 
 document.addEventListener("DOMContentLoaded", () => {
   const loader = document.getElementById("loader");
-  console.log(loader);
+
   
   if (loader) {
     setTimeout(() => {
@@ -25,7 +26,7 @@ document.getElementById("nav-width").style.width=`${scrollProgress}vw`;
     var selc=document.querySelector(".selc")
     var dr=document.querySelector(".dr")
     if (navbar) {
-        if (window.scrollY > 600) {
+        if (window.scrollY > 400) {
             navbar.classList.add("fixtop");
             selc.classList.add("selc1e")
             dr.classList.add("ddd")
@@ -101,7 +102,7 @@ fetch("https://opensheet.elk.sh/1zQtyIrGqoGVwtZMBM81BzyBM-N3M0KANewvmGGDljJk/She
       data[key] = value;
     });
     data.formType = 'contactForm';
-    fetch('https://script.google.com/macros/s/AKfycbwDYRbYhxMakaxkd_sPNQDBNdmohZIyu24DRGkHzSKpk8yFjG_mwJCApkA76HQTnLsn2A/exec', {
+    fetch('https://script.google.com/macros/s/AKfycbwEep3umRnWFO8tXdgLSSxk328V1FtSZfagSm4TunsLqjKOh6m9jb68IqJAoaKBjsQf9g/exec', {
       method: 'POST',
       body: new URLSearchParams(data)
     })
@@ -109,7 +110,7 @@ fetch("https://opensheet.elk.sh/1zQtyIrGqoGVwtZMBM81BzyBM-N3M0KANewvmGGDljJk/She
     .then(data => {
       // Clear the form after successful submission
       contact_form.reset();
-      alert('Form submitted successfully!');
+            Swal.fire("Form submitted successfully!");
     })
     .catch(error => alert('Error submitting form: ' + error));
   });
@@ -129,9 +130,9 @@ fetch("https://opensheet.elk.sh/1zQtyIrGqoGVwtZMBM81BzyBM-N3M0KANewvmGGDljJk/She
       data[key] = value;
     });
     data.formType = 'applyform';
-    console.log(data);
+  
     
-    fetch('https://script.google.com/macros/s/AKfycbwDYRbYhxMakaxkd_sPNQDBNdmohZIyu24DRGkHzSKpk8yFjG_mwJCApkA76HQTnLsn2A/exec', {
+    fetch('https://script.google.com/macros/s/AKfycbwEep3umRnWFO8tXdgLSSxk328V1FtSZfagSm4TunsLqjKOh6m9jb68IqJAoaKBjsQf9g/exec', {
       method: 'POST',
       body: new URLSearchParams(data)
     })
@@ -139,8 +140,46 @@ fetch("https://opensheet.elk.sh/1zQtyIrGqoGVwtZMBM81BzyBM-N3M0KANewvmGGDljJk/She
     .then(data => {
       // Clear the form after successful submission
       apply_form.reset();
-      alert('Form submitted successfully!');
+            Swal.fire("Form submitted successfully!");
     })
     .catch(error => alert('Error submitting form: ' + error));
   });
+  // ============================ APPLY FORM DATA END ==================================
+
+
+
+  // ============================ APPLY FORM DATA START ================================
+  var quer_form = document.getElementById("queryform");
+
+  if (quer_form) {
+    quer_form.addEventListener("submit", function (event) {
+      event.preventDefault();
+  
+      var formData = new FormData(this);
+      var data = {};
+      formData.forEach(function (value, key) {
+        data[key] = value;
+      });
+      data.formType = 'queryform';
+      console.log(data);
+  
+      fetch('https://script.google.com/macros/s/AKfycbwEep3umRnWFO8tXdgLSSxk328V1FtSZfagSm4TunsLqjKOh6m9jb68IqJAoaKBjsQf9g/exec', {
+        method: 'POST',
+        body: new URLSearchParams(data)
+      })
+      .then(response => response.text())
+      .then(data => {
+        // Close modal
+        const modalEl = document.getElementById('exampleModal');
+        const modal = bootstrap.Modal.getInstance(modalEl);
+        if (modal) modal.hide();
+  
+        //       Swal.fire("Form submitted successfully!");
+        Swal.fire("Form submitted successfully!");
+        quer_form.reset();
+      })
+      .catch(error => alert('Error submitting form: ' + error));
+    });
+  }
+  
   // ============================ APPLY FORM DATA END ==================================
