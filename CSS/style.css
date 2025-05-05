@@ -1,22 +1,14 @@
 @import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap');
 
-:root {
-  --color1:#5fcf80;
-  --color2: #8f8f8f;
-  --golden-color: #5fcf80;
-  --text-color: rgb(104, 104, 104);
-  --text-color1: rgb(124, 124, 124);
-  --color2: #182149;
-  --font-family: "Nunito", serif;
-}
+
 
 body {
 
   color: #313131 !important;
-  font-family: var(--font-family) !important;
+  font-family: "Nunito", serif !important;
   margin: 0px;
   padding: 0px;
-}
+}z
 
 .color-2 {
   color: var(--color2) !important;
@@ -36,7 +28,7 @@ button {
 }
 
 .col-org {
-  color: var(--color1) !important;
+  color: #5fcf80 !important;
 }
 
 
@@ -84,7 +76,7 @@ button {
 }
 
 .backroun {
-  background-color: var(--color1);
+  background-color: #5fcf80;
 }
 
 /* NAVBAR */
@@ -160,7 +152,7 @@ padding: 10px;
   height: 100% !important;
   bottom: 0%;
   transition: 0.4s ease-in-out !important;
-  background-color: var(--color1);
+  background-color: #5fcf80;
   font-size: 14px !important;
   z-index: 111;
   left: 0px;
@@ -180,7 +172,7 @@ right: 5px;
   text-align: center !important;
   font-weight: 900 !important;
   font-weight: 700 !important;
-  background-color: var(--color1);
+  background-color: #5fcf80;
   position: fixed;
   border: 1px solid white !important;
 }
@@ -223,7 +215,7 @@ background-position: center;
 
   padding: 10px 20px;
   border-radius: 40px !important;
-  background-color: var(--color1)!important;
+  background-color: #5fcf80!important;
 }
 /* =======================SWIPER ==============*/
 .big_nav .dropdown-large {
@@ -239,7 +231,7 @@ border: 1px solid white !important;
 .btn3:hover .icon-hover {
   transition: 0.4s ease-in-out !important;
 
-  background-color: var(--color1) !important;
+  background-color: #5fcf80 !important;
   width: 100% !important;
   height: 100% !important;
   color: white !important;
@@ -273,7 +265,7 @@ font-size: 16px;
 color: white;
 border-radius: 4px;
 font-weight: 600;
-background-color: var(--color1);
+background-color: #5fcf80;
 }
 
 .nav-item>.nav-link {
@@ -321,7 +313,7 @@ transition: 0.8s ease-in-out !important;
 }
 li>.big_nav .dropdown-item:hover {
   color: white !important;
-  background-color: var(--color1);
+  background-color: #5fcf80;
 
 }
 
@@ -331,7 +323,7 @@ li>.big_nav .dropdown-item:hover {
 
 .big_nav .dropdown-large>div>div>.big_nav .dropdown-item:hover {
   color: white !important;
-  background-color: var(--color1);
+  background-color: #5fcf80;
 
 }
 
@@ -378,7 +370,7 @@ li>.big_nav .dropdown-item:hover {
 
 .btn1 {
   background-color: white;
-  color: var(--color1);
+  color: #5fcf80;
   border: none;
   outline: none;
   font-weight: 600;
@@ -389,7 +381,7 @@ li>.big_nav .dropdown-item:hover {
 }
 
 .btn1:hover {
-  background-color: var(--color1);
+  background-color: #5fcf80;
   color: white;
 }
 
@@ -476,7 +468,7 @@ a:hover{
   padding: 10px;
   text-align: center;
   color: white;
-  background-color: var(--color1) !important;
+  background-color: #5fcf80 !important;
   border-radius: 50%;
   margin-top: -55px !important;
 
@@ -498,7 +490,7 @@ a:hover{
 }
 
 .rightarrowdark {
-  fill: var(--color1) !important;
+  fill: #5fcf80 !important;
 }
 
 .carhover {
@@ -506,7 +498,7 @@ a:hover{
 
   transition: 0.9s ease !important;
   width: 5% !important;
-  background-color: var(--color1) !important;
+  background-color: #5fcf80 !important;
   position: absolute !important;
   height: 5%;
   left: 6%;
@@ -542,7 +534,7 @@ a:hover{
 }
 
 .car:hover .dfd>i {
-  color: var(--color1);
+  color: #5fcf80;
   background-color: white !important;
 }
 
@@ -554,19 +546,19 @@ a:hover{
   height: 100% !important;
   width: 100% !important;
   left: 0px;
-  background-color: var(--color1) !important;
+  background-color: #5fcf80 !important;
 }
 
 
 /*  */
 
 .card:hover .crett1 {
-  color: var(--color1) !important;
+  color: #5fcf80 !important;
   display: block !important;
 }
 
 .crett1 {
-  color: var(--color1);
+  color: #5fcf80;
   display: none !important;
 
 }
@@ -606,7 +598,7 @@ a:hover{
 }
 
 .appdiv>div:hover {
-  background-color: var(--color1);
+  background-color: #5fcf80;
   color: white;
 
 }
@@ -634,7 +626,7 @@ a:hover{
 .ex-page {
   padding: 40px 0px !important;
   font-size: 16px;
-  background-color: var(--color1);
+  background-color: #5fcf80;
   background-attachment: fixed;
   background-size: cover;
   object-fit: cover;
@@ -655,7 +647,7 @@ a:hover{
 }
 
 .bg-col {
-  background-color: var(--color1) !important;
+  background-color: #5fcf80 !important;
 }
 
 .course-img1 {
@@ -766,7 +758,7 @@ iframe {
   text-transform: capitalize;
   padding: 10px;
   border-radius: 8px !important;
-  border: 1px solid var(--color1) !important;
+  border: 1px solid #5fcf80 !important;
 
   outline: 2px solid white !important;
   transition: 0.9s ease-in-out !important;
@@ -775,7 +767,7 @@ iframe {
 #form>div>input:focus {
   outline: 2px solid white !important;
 
-  border-bottom: 1px solid var(--color1) !important;
+  border-bottom: 1px solid #5fcf80 !important;
 }
 
 #form>div>select {
@@ -789,7 +781,7 @@ iframe {
 #form>div>textarea:focus {
   outline: 2px solid white !important;
 
-  border-bottom: 1px solid var(--color1) !important;
+  border-bottom: 1px solid #5fcf80 !important;
 
 }
 
@@ -810,7 +802,7 @@ iframe {
   height: 100%;
   border-bottom: 5px solid white !important;
   margin: 4px 0px !important;
-  background-color: var(--color1);
+  background-color: #5fcf80;
 }
 
 .appdiv:hover .aphov {
@@ -875,15 +867,15 @@ iframe {
 }
 
 .form-control1:hover {
-  border: 1px solid var(--color1);
+  border: 1px solid #5fcf80;
 }
 
 .form-control1:focus {
 
   border: none;
-  border-bottom: 1px solid var(--color1) !important;
+  border-bottom: 1px solid #5fcf80 !important;
   outline: none !important;
-  color: var(--color1) !important;
+  color: #5fcf80 !important;
 }
 
 .map {
@@ -928,7 +920,7 @@ width: 100%;
 
 .accordion-button {
   color: white !important;
-  background-color: var(--color1) !important;
+  background-color: #5fcf80 !important;
 }
 
 .testi2 {
@@ -968,7 +960,7 @@ width: 100%;
   border-top-left-radius: 20px;
   border-bottom-left-radius: 20px;
 
-  background-color: var(--color1) !important;
+  background-color: #5fcf80 !important;
   clip-path: polygon(0 0, 100% 0%, 87% 100%, 0% 100%);
 }
 
@@ -1162,7 +1154,7 @@ footer a{
 }
 
 .icon>a>i:hover {
-  color: var(--color1) !important;
+  color: #5fcf80 !important;
 }
 
 .diveye {
@@ -1199,7 +1191,7 @@ footer a{
 
 .rightarrow-dark {
   font-weight: 1000;
-  fill: var(--color1) !important;
+  fill: #5fcf80 !important;
 }
 
 .hov>div>h5 .hov>div>h6 {
@@ -1212,7 +1204,7 @@ footer a{
 }
 
 #nav-width {
-  border-bottom: 3px solid var(--color1) !important;
+  border-bottom: 3px solid #5fcf80 !important;
   width: 1%;
   bottom: 0px;
   left: 0%;
@@ -1220,7 +1212,7 @@ footer a{
 }
 
 .aboutback {
-  background-color: var(--color1);
+  background-color: #5fcf80;
   transform: scale(1) !important;
   transition: 0.9s ease-in-out !important;
   background-position: center !important;
@@ -1465,7 +1457,7 @@ footer a{
 }
 
 .frm {
-  background-color: var(--color1) !important;
+  background-color: #5fcf80 !important;
 }
 
 
@@ -1528,8 +1520,21 @@ footer a{
   background-position: center;
   background-attachment: fixed !important;
 }
+@media (max-width:992px) {
+  .img_course_page {
+    width: 100%;
+      height: 50vh !important;
+  }
+} 
 
 
+
+@media (max-width:	576px) {
+  .img_course_page {
+    width: 100%;
+      height: 30vh !important;
+  }
+} 
 .icon_div_fix{
   z-index: 22222;
   position: fixed;
@@ -1537,7 +1542,7 @@ footer a{
   right: 0%;
   overflow: hidden;
   box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
-  background-color: var(--color1);
+  background-color: #5fcf80;
   padding: 5px;
 border: 2px solid white;  
 transition: 0.5s ease-in-out;
@@ -1553,7 +1558,7 @@ text-align: center !important;
 background-color: white;
 }
 .icon_div_fix a i{
-color: var(--color1);
+color: #5fcf80;
 }
 
 .about_Div_O img{
@@ -1625,7 +1630,7 @@ background-position: center;
   height: 150%;
   padding-left: 6px;
 
-  color: var(--color1);
+  color: #5fcf80;
   animation: spin_4991 4s infinite;
 }
 
