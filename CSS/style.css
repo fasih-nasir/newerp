@@ -1,11 +1,9 @@
-@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap');
-
-
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
 
 body {
-
+  font-family: "Lato", sans-serif !important;
   color: #313131 !important;
-  font-family: "Nunito", serif !important;
+  /* font-family: "Nunito", serif !important; */
   margin: 0px;
   padding: 0px;
 }z
@@ -69,9 +67,14 @@ button {
 .big_nav {
   top: 0%;
   z-index: 100;
+  width: 98% !important;
+  margin: 0.9% 1% !important;
+  border-radius: 25px !important;
   position: absolute !important;
-  padding: 20px 3px !important;
-  background-color: #ffffff !important;
+  /* padding: 20px 3px !important; */
+  background-color: #ffffff2c !important;
+  backdrop-filter: blur(19px);
+  border: 1px solid rgba(255, 255, 255, 0.418);
 
 }
 
@@ -121,7 +124,6 @@ height: 100% !important;
 
 
 .fixtop {
-  box-shadow: rgba(0, 0, 0, 0.15) 0px 3px 3px 0px !important;
   transition: 0.2s ease-in-out !important;
   /* background-color: white !important; */
   /* -webkit-backdrop-filter: blur(5px); */
@@ -130,7 +132,7 @@ height: 100% !important;
   position: fixed !important;
   top: 0px !important;
   height: 75px;
-  z-index: 11111;
+  z-index: 11111 !important;
 }
 
 .btn3 {
@@ -225,6 +227,11 @@ box-shadow: none !important;
 border: 1px solid white !important;
 }
 
+.nav_tog_btn{
+  font-size: 28px !important;
+  transform:rotate(90deg) !important;
+}
+
 
 
 
@@ -269,8 +276,8 @@ background-color: #5fcf80;
 }
 
 .nav-item>.nav-link {
-  color: rgb(92, 92, 92);
-  font-size: 16px !important;
+  color: rgb(255, 255, 255) !important;
+  font-size: 17px !important;
 
  
   transition: 0.5s ease-in !important;
@@ -280,7 +287,7 @@ background-color: #5fcf80;
 
 .nav-item>.nav-link:hover {
 
-  color: var(--golden-color) !important;
+  color: white !important;
 }
 
 
@@ -298,14 +305,21 @@ background-color: #5fcf80;
 transition: 0.8s ease-in-out !important;
 }
 .dropdown-menu ,.dropdown{
+ 
   transition: 0.6s ease-in-out !important;
 }
+.dropdown-menu .dropdown-item{
+  font-size: 14px !important;
+  font-weight: 400 !important;
+  color: rgb(134, 134, 134) !important;
+}
 .big_nav .dropdown-large .big_nav .dropdown-item {
-  font-size: 16px !important;
+  font-size: 12px !important;
   transition: 0.2s ease-in-out !important;
 }
 @media (min-width:992px) {
   .position_sticky{
+    background-color: white !important;
     position:sticky !important;
     height:max-content !important;
     top:10%
@@ -327,13 +341,6 @@ li>.big_nav .dropdown-item:hover {
 
 }
 
-
-.big_nav .dropdown-item {
-  /* font-weight: 600 !important; */
-  /* font-size: 15px !important; */
-  color: var(--text-color) !important;
-
-}
 
 /* NAVBAR */
 
@@ -390,8 +397,15 @@ li>.big_nav .dropdown-item:hover {
   transition: 0.9s ease-in-out !important;
   width: 75% !important;
   z-index: 2222222 !important;
-  background-color: white !important;
+  overflow-y: scroll  !important;
+  height: max-content !important;
+  background-color: #ffffff2c !important;
+  backdrop-filter: blur(19px);
+  border: 1px solid rgba(255, 255, 255, 0.418);
   z-index: 111111111 !important;
+}
+.offcanvas-end::-webkit-scrollbar{
+  background-color: transparent !important;
 }
 .offcanvas-end .nav-item {
   margin: 10px 0px;
@@ -428,37 +442,20 @@ a:hover{
   box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px !important;
 }
 
-.slider-img1:hover {
-  transform: scale(1.09) !important;
-}
-
-.slider-img2:hover {
-  transform: scale(1.09) !important;
-}
 
 .slider-img1 {
-  transform: scale(1) !important;
+  width: 99.990% !important;
+margin:0.2% 0.5% !important;
+border-radius: 20px;
   transition: 0.9s ease-in-out !important;
   background-position: center !important;
   object-fit: cover;
-  background-size: cover;
+  /* background-size: cover; */
   background-repeat: no-repeat;
   background-attachment: fixed !important;
   height: 110vh !important;
 }
 
-.slider-img2 {
-  transform: scale(1) !important;
-
-  background-position: center !important;
-  object-fit: cover;
-  transition: 0.9s ease-in-out !important;
-
-  background-size: cover;
-  background-repeat: no-repeat;
-  height: 110vh !important;
-  background-attachment: fixed !important;
-}
 
 
 .cardi {
@@ -1221,7 +1218,7 @@ footer a{
   background-size: cover !important;
   background-repeat: no-repeat;
   background-attachment: fixed !important;
-  height: 60vh;
+  height: 70vh;
   z-index: -1;
 }
 
@@ -1571,7 +1568,8 @@ background-position: center;
 /* ============== LOADER CSS START ============== */
 .loader_CO{
   height: 100vh ;
-  background-color: white ;
+  background-color: rgba(70, 69, 69, 0.205) ;
+ backdrop-filter: blur(9px) !important;
   position: fixed ;
   top: 0% ;
   width: 100%;
@@ -1584,12 +1582,12 @@ background-position: center;
 /* From Uiverse.io by kennyotsu */ 
 .card {
   /* color used to softly clip top and bottom of the .words container */
-  padding: 1rem 2rem;
+  padding: 10px 40px !important;
   border: 1px solid white !important;
 
   box-shadow: none !important;
   text-align: center !important;
-  border-radius: 1.25rem !important;
+  border-radius: 6px !important;
 }
 .loader {
   text-align: center !important;
@@ -1605,7 +1603,8 @@ background-position: center;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  border-radius: 8px;
+  background-color:transparent !;
+  border-radius: 1px !important;
 }
 
 .words {

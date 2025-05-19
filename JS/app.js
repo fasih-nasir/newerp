@@ -7,7 +7,7 @@ document.addEventListener("DOMContentLoaded", () => {
   if (loader) {
     setTimeout(() => {
       loader.classList.add("rem");
-    }, 2300); // 3 seconds
+    }, 2500); // 3 seconds
   }
 });
 // ======= LOADER JS END ======= 
@@ -16,7 +16,7 @@ document.addEventListener("DOMContentLoaded", () => {
 window.addEventListener("scroll", function() {
 var a=this.document.body.scrollHeight -this.window.innerHeight;
 const scrollProgress = (window.scrollY / a) * 99;
-document.getElementById("nav-width").style.width=`${scrollProgress}vw`;
+// document.getElementById("nav-width").style.width=`${scrollProgress}vw`;
 
     // console.log();
 
@@ -28,8 +28,7 @@ document.getElementById("nav-width").style.width=`${scrollProgress}vw`;
     if (navbar) {
         if (window.scrollY > 400) {
             navbar.classList.add("fixtop");
-            selc.classList.add("selc1e")
-            dr.classList.add("ddd")
+           
             navlink.forEach((e) => {
                 e.classList.add("colb"); // Ensure you're adding the correct class
                 
