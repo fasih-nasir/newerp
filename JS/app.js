@@ -54,35 +54,33 @@ const scrollProgress = (window.scrollY / a) * 99;
 var head=document.getElementById("header")
 
 
-fetch("/header.html")
+if(head){
+  fetch("/header.html")
 .then(data => data.text())
 
 .then((e)=>{
 head.innerHTML=e
   
 })
+}
 // ================= HEADER CODE END ======================
 
 // ================= FOOTER CODE START ======================
 var footer=document.getElementById("footer")
-fetch("/footer.html")
+if(footer){
+  fetch("/footer.html")
 .then(data => data.text())
 .then((e)=>{
   footer.innerHTML=e
   
 })
+}
 // ================= FOOTER CODE END ======================
 
-//   FETCH API FOR COURSE START
-fetch("https://opensheet.elk.sh/1zQtyIrGqoGVwtZMBM81BzyBM-N3M0KANewvmGGDljJk/Sheet2")
 
-.then(res => res.json())
-.then((data) => {
-})
-.catch((error) => {
-  console.error("Error fetching data: ", error);
-});
+  
 
+//   FETCH API FOR COURSE START  
 
 
 
@@ -182,3 +180,4 @@ fetch("https://opensheet.elk.sh/1zQtyIrGqoGVwtZMBM81BzyBM-N3M0KANewvmGGDljJk/She
   }
   
   // ============================ APPLY FORM DATA END ==================================
+

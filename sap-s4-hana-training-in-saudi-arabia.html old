@@ -1,0 +1,430 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!--WhatsApp Start-->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+<a href="https://api.whatsapp.com/send?phone=+923343142922&text=Hello ERP TRAINING PAKISTAN" class="float" target="_blank"> 
+<i class="fa fa-whatsapp my-float"></i></a> 
+<!-- CSS -->
+<style>
+.float{
+position:fixed;
+width:60px;
+height:60px;
+bottom:20px;
+right:100px;
+background-color:#25d366;
+color:#FFF;
+border-radius:50px;
+text-align:center;
+font-size:30px;
+box-shadow: 2px 2px 3px #999;
+z-index:1000;
+}
+.my-float{
+margin-top:16px;
+}
+ </style>
+<!--WhatsApp End --> 
+<!-- Header -->
+  <link rel="apple-touch-icon" sizes="76x76" href="/apple-touch-icon.png">
+<link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+<link rel="manifest" href="/site.webmanifest">
+<link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5">
+<meta name="msapplication-TileColor" content="#da532c">
+<meta name="theme-color" content="#ffffff">
+  <!--<link href="assets/img/favicon.png" rel="icon">
+  <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon"> -->
+
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Raleway:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i" rel="stylesheet">
+
+  <!-- Vendor CSS Files -->
+  <link href="assets/vendor/animate.css/animate.min.css" rel="stylesheet">
+  <link href="assets/vendor/aos/aos.css" rel="stylesheet">
+  <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+  <link href="assets/vendor/boxicons/css/boxicons.min.css" rel="stylesheet">
+  <link href="assets/vendor/remixicon/remixicon.css" rel="stylesheet">
+  <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
+
+  <!-- Template Main CSS File -->
+  <link href="assets/css/style.css" rel="stylesheet">
+
+  <!-- =======================================================
+  * Template Name: Mentor - v4.7.0
+  * Template URL: https://bootstrapmade.com/mentor-free-education-bootstrap-theme/
+  * Author: BootstrapMade.com
+  * License: https://bootstrapmade.com/license/
+  ======================================================== -->
+  <meta name="ahrefs-site-verification" content="8410628f3cb71d7d7b947b876868014c210f0e1fcafd8e3346891a6150547de2">
+
+ <!-- ======= Header ======= -->
+  <header id="header" class="fixed-top">
+    <div class="container d-flex align-items-center">
+
+      <h1 class="logo me-auto"><a href="index.html"></a></h1>
+      <!-- Uncomment below if you prefer to use an image logo -->
+      <a href="index.html" class="logo me-auto"><img src="assets/img/erplogo.png" alt="" class="img-fluid"></a>
+
+      <nav id="navbar" class="navbar order-last order-lg-0">
+        <ul><li><a class="" href="index.html">HOME</a></li>
+          
+          <li class="dropdown"><a href="#"><span>COURSES</span> <i class="bi bi-chevron-down"></i></a>
+            <ul>
+              <li class="dropdown"><a href="#"><span>SAP S4 HANA</span> <i class="bi bi-chevron-right"></i></a>
+                <ul>
+                  <li><a href="saps4hanaMM.html">SAP S4 HANA MM</a></li>
+                  <li><a href="saps4hanasd-salesanddistribution.html">SAP S4 HANA SD</a></li>
+                  <li><a href="#">SAP S4 HANA ABAP</a></li>
+                  <li><a href="saps4hanabasis.html">SAP S4 HANA BASIS</a></li>
+                  <li><a href="saps4hanafitraining.html">SAP S4 HANA FI</a></li>
+          <li><a href="#">SAP S4 HANA BI/BW</a></li>
+                </ul>
+              </li>
+        <li class="dropdown"><a href="#"><span>ACCOUNTING</span> <i class="bi bi-chevron-right"></i></a>
+                <ul>
+                  <li><a href="quickbookstrainingpakistan.html">QUICKBOOKS</a></li>
+                  <li><a href="#">PEACHTREE</a></li>
+                  <li><a href="#">ADV EXCEL</a></li>
+                  <li><a href="#">SAGE</a></li>
+                  <li><a href="#">XERO</a></li>
+          <li><a href="#">MYOB</a></li>
+                </ul>
+        <li class="dropdown"><a href="#"><span>IT COURSES</span> <i class="bi bi-chevron-right"></i></a>
+                <ul>
+                  <li><a href="#">QUICKBOOKS</a></li>
+                  <li><a href="#">PEACHTREE</a></li>
+                  <li><a href="#">ADV EXCEL</a></li>
+                  <li><a href="#">SAGE</a></li>
+                  <li><a href="#">XERO</a></li>
+          <li><a href="#">MYOB</a></li>
+                </ul>
+            </ul>
+          </li>
+      <li class="dropdown"><a href="#"><span>SERVICES</span> <i class="bi bi-chevron-down"></i></a>
+            <ul>
+      <li class="dropdown"><a href="#"><span>SOFTWARE</span> <i class="bi bi-chevron-right"></i></a>
+                <ul>
+                  <li><a href="#">ENGINEERING SOFTWARE</a></li>
+                  <li><a href="#">ACCOUNTING SOFTWARE</a></li>
+                  <li><a href="#">ERP SOFTWARE</a></li>
+                  </ul>
+              </li>
+              <li><a href="#">NETWORKING</a></li>
+              <li><a href="#">LAPTOP/PC</a></li>
+              </ul>
+          </li>
+       <li class="dropdown"><a href="#"><span>SAP S4 HANA</span> <i class="bi bi-chevron-down"></i></a>
+            <ul>
+                <li class="dropdown"><a href="#"><span>SAP HANA ACCESS</span> <i class="bi bi-chevron-right"></i></a>
+                <ul>
+                    <li><a href="saphanaaccess.html">GET SAP ACCESS</a></li>
+                  <li><a href="saphanademoaccess.html">FREE DEMO ACCESS</a></li>
+                 </ul>
+              </li>
+      <li class="dropdown"><a href="#"><span>SAP IDES INSTALLATION</span> <i class="bi bi-chevron-right"></i></a>
+                <ul>
+                  <li><a href="sapidesinstallation.html">SAP IDES EHP 6</a></li>
+                  <li><a href="sapidesinstallation.html">SAP IDES EHP 7</a></li>
+                  <li><a href="sapidesinstallation.html">SAP IDES EHP 8</a></li>
+                </ul>
+              </li>
+            </ul>
+          </li>
+      <li class="dropdown"><a href="#"><span>SOFTWARE</span> <i class="bi bi-chevron-down"></i></a>
+            <ul>
+              <li><a href="#">SOFTWARE LIST</a></li>
+              </ul>
+          </li>
+      <li><a href="about.html">ABOUT</a></li>
+          <li><a href="contact.html">CONTACT</a></li>
+        </ul>
+        <i class="bi bi-list mobile-nav-toggle"></i>
+      </nav><!-- .navbar -->
+         </div>
+  </header>
+  <!-- End Header -->
+  <!-- Header -->
+  <meta name="google-site-verification" content="w5QVvzAY1gaBv6J2zDnPjBCSQjUo6r0sE1kzCQnWrI0" />
+  <meta charset="utf-8">
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+  <title>SAP S4 HANA Implementation Training in Saudi Arabia, Dammam, Riyadh and Jeddah | ERP TRAINING PAKISTAN</title>
+  
+  <meta name="description" content="SAP training in Pakistan, Saudi Arabia, Oman, Abu Dhabi, and Qatar on various modules like FICO, MM, HR, and SD. Taught by certified SAP experts with real-world experience.">
+ 
+  <!-- Favicons -->
+  <link href="assets/img/favicon.png" rel="icon">
+  <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Raleway:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i" rel="stylesheet">
+ </head>
+<body>
+   <main id="main">
+
+    <!-- ======= Breadcrumbs ======= -->
+    <div class="breadcrumbs" data-aos="fade-in">
+      <div class="container">
+        <h1>SAP S4 HANA Training in Saudi Arabia, Dammam, Riyad, Jeddah</h1>
+        <p>Best Opportunity for Overseas Pakistani Students/Professionals</p>
+      </div>
+    </div><!-- End Breadcrumbs -->
+
+    <!-- ======= Cource Details Section ======= -->
+    <section id="course-details" class="course-details">
+      <div class="container" data-aos="fade-up">
+
+        <div class="row">
+          <div class="col-lg-8">
+            <img src="assets/img/sap-s4-hana-training-in-saudi.jpg" class="img-fluid" alt="SAP S4 HANA Training in Saudi Arabia, Dammam, Riyad, Jeddah">
+            <h2>Module : SAP  ABAP Programming in Saudi Arabia</h2>
+            <p align="justify">SAP S/4HANA ABAP (Advanced Business Application Programming) training in Saudi Arabia is designed to provide individuals with the knowledge and skills necessary to effectively program and develop solutions for an SAP S/4HANA system using the ABAP programming language. The training covers topics such as the ABAP development environment, programming concepts, data modeling, and debugging. It also includes hands-on exercises and real-world scenarios to provide students with a practical understanding of how to apply the concepts learned in the training. Individuals who complete the training will be equipped to program and develop solutions for SAP S/4HANA using ABAP in a professional environment, and will have the skills necessary to become a successful SAP ABAP developer. Additionally, the training will focus on the new features and functionalities of SAP S/4HANA ABAP, comparing it with the traditional ABAP version. This will allow the students to understand the significance of the migration and the benefits it brings, such as real-time analytics, improved data models, and increased efficiency.
+            </p><p class="align-center"> <a href="https://www.erptrainingpakistan.com/">Click Here For More Information</a></p>
+			<h3>Module : SAP HANA S/4 System Administration</h3>
+			 <p align="justify">SAP S/4HANA System Administration training is designed to provide individuals with the knowledge and skills necessary to effectively manage and maintain an SAP S/4HANA system. The training covers topics such as system monitoring, system configuration, troubleshooting, and performance optimization. It also includes hands-on exercises and real-world scenarios to provide students with a practical understanding of how to apply the concepts learned in the training. Individuals who complete the training will be equipped to manage and maintain an SAP S/4HANA system in a professional environment, and will have the skills necessary to become a successful SAP S/4HANA System Administrator. Additionally, the training will focus on the new features and functionalities of SAP S/4HANA system administration, comparing it with the traditional ECC administration. This will allow the students to understand the significance of the migration and the benefits it brings, such as real-time analytics, improved data models, and increased efficiency. The training will also include the integration of system administration with other modules such as HANA, BPC, and SAC to give a holistic view of the business process.
+</p><p class="align-center"> <a href="https://www.erptrainingpakistan.com/">Click Here For More Information</a></p>
+<h3>Module : SAP S/4 HANA BASIS</h3>
+             <p align="justify">SAP Basis training in Dammam, Saudi Arabia provides individuals with the knowledge and skills necessary to effectively manage and maintain SAP systems. The training covers topics such as system administration, system monitoring, system configuration, and troubleshooting. It also includes hands-on exercises and real-world scenarios to provide students with a practical understanding of how to apply the concepts learned in the training. Individuals who complete the training will be equipped to manage and maintain SAP systems in a professional environment, and will have the skills necessary to become a successful SAP Basis administrator.
+</p><p class="align-center"> <a href="https://www.erptrainingpakistan.com/saps4hanabasis.html">Click Here For More Information</a></p>
+<h3>Module : SAP S/4 Fiori Installation and Configuration</h3>
+<p align="justify">SAP S/4HANA Fiori Installation and Configuration training is designed to provide individuals with the knowledge and skills necessary to effectively install and configure the Fiori interface for an SAP S/4HANA system. The training covers topics such as the architecture of the Fiori system, the installation and configuration of the various components, and the customization and personalization of the interface. It also includes hands-on exercises and real-world scenarios to provide students with a practical understanding of how to apply the concepts learned in the training. Individuals who complete the training will be equipped to install and configure SAP S/4HANA Fiori in a professional environment, and will have the skills necessary to become a successful SAP Fiori administrator. Additionally, the training will focus on the new features and functionalities of SAP S/4HANA Fiori, comparing it with the traditional Fiori version. This will allow the students to understand the significance of the migration and the benefits it brings, such as real-time analytics, improved data models, and increased efficiency.
+</p><p class="align-center"> <a href="https://www.erptrainingpakistan.com/">Click Here For More Information</a></p>
+<h3>Module : SAP S/4 HANA BI Business Intelligence</h3>
+<p align="justify">SAP S/4HANA BI (Business Intelligence) training in Saudi Arabia is designed to provide individuals with the knowledge and skills necessary to effectively use and manage the Business Intelligence (BI) component of an SAP S/4HANA system. The training covers topics such as data modeling, data extraction, data loading, reporting, and data visualization. It also includes hands-on exercises and real-world scenarios to provide students with a practical understanding of how to apply the concepts learned in the training. Individuals who complete the training will be equipped to use and manage SAP S/4HANA BI in a professional environment, and will have the skills necessary to become a successful SAP BI consultant. Additionally, the training will focus on the new features and functionalities of SAP S/4HANA BI, comparing it with the traditional BI module in ECC. This will allow the students to understand the significance of the migration and the benefits it brings, such as real-time analytics, improved data models, and increased efficiency. The training will also include integration of BI with other modules such as HANA, BPC, and SAC to give a holistic view of the business process.
+</p><p class="align-center"> <a href="https://www.erptrainingpakistan.com/">Click Here For More Information</a></p>
+<h3>Module : SAP S/4 HANA NetWeaver BW Business Warehouse</h3>
+<p align="justify">SAP S/4HANA BW (Business Warehouse) training in Dammam and Riyadh, Saudi Arabia is designed to provide individuals with the knowledge and skills necessary to effectively use and manage the Business Warehouse (BW) component of an SAP S/4HANA system. The training covers topics such as data modeling, data extraction, data loading, and reporting. It also includes hands-on exercises and real-world scenarios to provide students with a practical understanding of how to apply the concepts learned in the training. Individuals who complete the training will be equipped to use and manage SAP S/4HANA BW in a professional environment, and will have the skills necessary to become a successful SAP BW consultant. Additionally, the training will focus on the new features and functionalities of SAP S/4HANA BW, comparing it with the traditional BW module in ECC. This will allow the students to understand the significance of the migration and the benefits it brings, such as real-time analytics, improved data models, and increased efficiency. The training will also include integration of BW with other modules such as HANA, BPC, and SAC to give a holistic view of the business process.
+</p><p class="align-center"> <a href="https://www.erptrainingpakistan.com/">Click Here For More Information</a></p>
+<h3>Module : SAP S/4 HANA FI Finance Accounting</h3>
+<p align="justify">SAP S/4HANA FI (Finance) training in Saudi Arabia is designed to provide individuals with the knowledge and skills necessary to effectively manage and maintain financial processes within an SAP S/4HANA system. The training covers topics such as financial accounting, management accounting, and controlling. It also includes hands-on exercises and real-world scenarios to provide students with a practical understanding of how to apply the concepts learned in the training. Individuals who complete the training will be equipped to manage and maintain SAP S/4HANA FI processes in a professional environment, and will have the skills necessary to become a successful SAP FI consultant. Additionally, the training will focus on the new features and functionalities of SAP S/4HANA FI, comparing it with the traditional FI module in ECC. This will allow the students to understand the significance of the migration and the benefits it brings, such as real-time analytics, improved data models, and increased efficiency.
+</p><p class="align-center"> <a href="https://www.erptrainingpakistan.com/saps4hanafitraining.html">Click Here For More Information</a></p>
+<h3>Module : SAP S/4 HANA CO/MA Management Accounting</h3>
+<p align="justify">SAP S/4HANA CO (Controlling) and Management Accounting (MA) training in Saudi Arabia is designed to provide individuals with the knowledge and skills necessary to effectively manage and maintain controlling and management accounting processes within an SAP S/4HANA system. The training covers topics such as cost center accounting, profitability analysis, and product costing. It also includes hands-on exercises and real-world scenarios to provide students with a practical understanding of how to apply the concepts learned in the training. Individuals who complete the training will be equipped to manage and maintain SAP S/4HANA CO and MA processes in a professional environment, and will have the skills necessary to become a successful SAP CO and MA consultant. Additionally, the training will focus on the new features and functionalities of SAP S/4HANA CO and MA, comparing it with the traditional CO and MA modules in ECC. This will allow the students to understand the significance of the migration and the benefits it brings, such as real-time analytics, improved data models, and increased efficiency.
+</p><p class="align-center"> <a href="https://www.erptrainingpakistan.com/">Click Here For More Information</a></p>
+<h3>Module : SAP S/4 HANA MM Material Management</h3>
+<p align="justify">SAP S/4HANA MM (Material Management) training in Saudi Arabia is designed to provide individuals with the knowledge and skills necessary to effectively manage and maintain material management processes within an SAP S/4HANA system. The training covers topics such as master data management, purchasing, inventory management, and logistics. It also includes hands-on exercises and real-world scenarios to provide students with a practical understanding of how to apply the concepts learned in the training. Individuals who complete the training will be equipped to manage and maintain SAP S/4HANA MM processes in a professional environment, and will have the skills necessary to become a successful SAP MM consultant. Additionally, the training will focus on the new features and functionalities of SAP S/4HANA MM, comparing it with the traditional MM module in ECC. This will allow the students to understand the significance of the migration and the benefits it brings
+</p><p class="align-center"> <a href="https://www.erptrainingpakistan.com/saps4hanaMM.html">Click Here For More Information</a></p>
+<h3>Module : SAP S/4 HANA SD Sales & Distribution</h3>
+<p align="justify">SAP S/4HANA SD (Sales and Distribution) training in Dammam, Saudi Arabia is designed to provide individuals with the knowledge and skills necessary to effectively manage and maintain sales and distribution processes within an SAP S/4HANA system. The training covers topics such as sales order management, billing, delivery, and pricing. It also includes hands-on exercises and real-world scenarios to provide students with a practical understanding of how to apply the concepts learned in the training. Individuals who complete the training will be equipped to manage and maintain SAP S/4HANA SD processes in a professional environment, and will have the skills necessary to become a successful SAP SD consultant. Additionally, the training will focus on the new features and functionalities of SAP S/4HANA SD, comparing it with the traditional SD module in ECC. This will allow the students to understand the significance of the migration and the benefits it brings, such as real-time analytics, improved data models, and increased efficiency. The training will also include the integration of SD with other modules such as MM, FICO and PP to give a holistic view of the business process.
+</p><p class="align-center"> <a href="https://www.erptrainingpakistan.com/saps4hanasd-salesanddistribution.html">Click Here For More Information</a></p>
+<h3>Module : SAP S/4 HANA QM Quality Management</h3>
+<p align="justify">SSAP S/4HANA QM (Quality Management) training in Dammam and Riyadh, Saudi Arabia is designed to provide individuals with the knowledge and skills necessary to effectively manage and maintain quality management processes within an SAP S/4HANA system. The training covers topics such as quality inspection, quality notifications, and quality certificates. It also includes hands-on exercises and real-world scenarios to provide students with a practical understanding of how to apply the concepts learned in the training. Individuals who complete the training will be equipped to manage and maintain SAP S/4HANA QM processes in a professional environment, and will have the skills necessary to become a successful SAP QM consultant. Additionally, the training will focus on the new features and functionalities of SAP S/4HANA QM, comparing it with the traditional QM module in ECC. This will allow the students to understand the significance of the migration and the benefits it brings, such as real-time analytics, improved data models, and increased efficiency. The training will also include the integration of QM with other modules such as PP, MM, FICO and SD to give a holistic view of the business process.
+</p><p class="align-center"> <a href="https://www.erptrainingpakistan.com/">Click Here For More Information</a></p>
+</div>
+          <div class="col-lg-4">
+
+            <div class="course-info d-flex justify-content-between align-items-center">
+              <h5>Trainer</h5>
+              <p>Certified Consultant</p>
+            </div>
+
+            <div class="course-info d-flex justify-content-between align-items-center">
+              <h5>Course Fee</h5>
+              <p>xxxxx</p>
+            </div>
+
+            <div class="course-info d-flex justify-content-between align-items-center">
+              <h5>Available Seats</h5>
+              <p>10</p>
+            </div>
+
+            <div class="course-info d-flex justify-content-between align-items-center">
+              <h5>Schedule</h5>
+              <p>Friday + Weekends</p>
+            </div>
+
+          </div>
+        </div>
+
+      </div>
+    </section><!-- End Cource Details Section -->
+
+    <!-- ======= Cource Details Tabs Section ======= -->
+    <!--<section id="cource-details-tabs" class="cource-details-tabs">
+      <div class="container" data-aos="fade-up">
+
+        <div class="row">
+          <div class="col-lg-3">
+            <ul class="nav nav-tabs flex-column">
+              <li class="nav-item">
+                <a class="nav-link active show" data-bs-toggle="tab" href="#tab-1">Modi sit est</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" data-bs-toggle="tab" href="#tab-2">Unde praesentium sed</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" data-bs-toggle="tab" href="#tab-3">Pariatur explicabo vel</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" data-bs-toggle="tab" href="#tab-4">Nostrum qui quasi</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" data-bs-toggle="tab" href="#tab-5">Iusto ut expedita aut</a>
+              </li>
+            </ul>
+          </div>
+          <div class="col-lg-9 mt-4 mt-lg-0">
+            <div class="tab-content">
+              <div class="tab-pane active show" id="tab-1">
+                <div class="row">
+                  <div class="col-lg-8 details order-2 order-lg-1">
+                    <h3>Architecto ut aperiam autem id</h3>
+                    <p class="fst-italic">Qui laudantium consequatur laborum sit qui ad sapiente dila parde sonata raqer a videna mareta paulona marka</p>
+                    <p>Et nobis maiores eius. Voluptatibus ut enim blanditiis atque harum sint. Laborum eos ipsum ipsa odit magni. Incidunt hic ut molestiae aut qui. Est repellat minima eveniet eius et quis magni nihil. Consequatur dolorem quaerat quos qui similique accusamus nostrum rem vero</p>
+                  </div>
+                  <div class="col-lg-4 text-center order-1 order-lg-2">
+                    <img src="assets/img/course-details-tab-1.png" alt="" class="img-fluid">
+                  </div>
+                </div>
+              </div>
+              <div class="tab-pane" id="tab-2">
+                <div class="row">
+                  <div class="col-lg-8 details order-2 order-lg-1">
+                    <h3>Et blanditiis nemo veritatis excepturi</h3>
+                    <p class="fst-italic">Qui laudantium consequatur laborum sit qui ad sapiente dila parde sonata raqer a videna mareta paulona marka</p>
+                    <p>Ea ipsum voluptatem consequatur quis est. Illum error ullam omnis quia et reiciendis sunt sunt est. Non aliquid repellendus itaque accusamus eius et velit ipsa voluptates. Optio nesciunt eaque beatae accusamus lerode pakto madirna desera vafle de nideran pal</p>
+                  </div>
+                  <div class="col-lg-4 text-center order-1 order-lg-2">
+                    <img src="assets/img/course-details-tab-2.png" alt="" class="img-fluid">
+                  </div>
+                </div>
+              </div>
+              <div class="tab-pane" id="tab-3">
+                <div class="row">
+                  <div class="col-lg-8 details order-2 order-lg-1">
+                    <h3>Impedit facilis occaecati odio neque aperiam sit</h3>
+                    <p class="fst-italic">Eos voluptatibus quo. Odio similique illum id quidem non enim fuga. Qui natus non sunt dicta dolor et. In asperiores velit quaerat perferendis aut</p>
+                    <p>Iure officiis odit rerum. Harum sequi eum illum corrupti culpa veritatis quisquam. Neque necessitatibus illo rerum eum ut. Commodi ipsam minima molestiae sed laboriosam a iste odio. Earum odit nesciunt fugiat sit ullam. Soluta et harum voluptatem optio quae</p>
+                  </div>
+                  <div class="col-lg-4 text-center order-1 order-lg-2">
+                    <img src="assets/img/course-details-tab-3.png" alt="" class="img-fluid">
+                  </div>
+                </div>
+              </div>
+              <div class="tab-pane" id="tab-4">
+                <div class="row">
+                  <div class="col-lg-8 details order-2 order-lg-1">
+                    <h3>Fuga dolores inventore laboriosam ut est accusamus laboriosam dolore</h3>
+                    <p class="fst-italic">Totam aperiam accusamus. Repellat consequuntur iure voluptas iure porro quis delectus</p>
+                    <p>Eaque consequuntur consequuntur libero expedita in voluptas. Nostrum ipsam necessitatibus aliquam fugiat debitis quis velit. Eum ex maxime error in consequatur corporis atque. Eligendi asperiores sed qui veritatis aperiam quia a laborum inventore</p>
+                  </div>
+                  <div class="col-lg-4 text-center order-1 order-lg-2">
+                    <img src="assets/img/course-details-tab-4.png" alt="" class="img-fluid">
+                  </div>
+                </div>
+              </div>
+              <div class="tab-pane" id="tab-5">
+                <div class="row">
+                  <div class="col-lg-8 details order-2 order-lg-1">
+                    <h3>Est eveniet ipsam sindera pad rone matrelat sando reda</h3>
+                    <p class="fst-italic">Omnis blanditiis saepe eos autem qui sunt debitis porro quia.</p>
+                    <p>Exercitationem nostrum omnis. Ut reiciendis repudiandae minus. Omnis recusandae ut non quam ut quod eius qui. Ipsum quia odit vero atque qui quibusdam amet. Occaecati sed est sint aut vitae molestiae voluptate vel</p>
+                  </div>
+                  <div class="col-lg-4 text-center order-1 order-lg-2">
+                    <img src="assets/img/course-details-tab-5.png" alt="" class="img-fluid">
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </section><!-- End Cource Details Tabs Section -->
+
+  </main><!-- End #main -->
+<!-- ======= Footer ======= -->
+  <footer id="footer">
+
+    <div class="footer-top">
+      <div class="container">
+        <div class="row">
+
+          <div class="col-lg-3 col-md-6 footer-contact">
+            <h3>ERPTPAK</h3>
+            <p>
+              Gulshan e Iqbal <br>
+              Karachi<br>
+              Pakistan <br><br>
+              <strong>Phone:</strong><a href="tel:923122811963" rel="nofollow">+923122811963</a><br>
+              <strong>Email:</strong> info@erptrainingpakistan.com<br>
+            </p>
+          </div>
+
+          <div class="col-lg-2 col-md-6 footer-links">
+            <h4>Useful Links</h4>
+            <ul>
+              <li><i class="bx bx-chevron-right"></i> <a href="index.html">Home</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="about.html">About us</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="saps4hanaMM.html">SAP S/4 HANA MM</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="saps4hanafitraining.html">SAP S/4 HANA FI</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="saps4hanabasis.html">SAP S/4 HANA BASIS</a></li>
+            </ul>
+          </div>
+
+          <div class="col-lg-3 col-md-6 footer-links">
+            <h4>Our Services</h4>
+            <ul>
+              <li><i class="bx bx-chevron-right"></i> <a href="saphanaaccess.html">SAP Access</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="quickbookstrainingpakistan.html">QuickBooks</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="saps4hanafitraining.html">SAP Training</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="#">Clinic Management</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="#">ERP Solutions</a></li>
+            </ul>
+          </div>
+
+          <div class="col-lg-4 col-md-6 footer-newsletter">
+            <h4>Join Our Newsletter</h4>
+            <p>Submit your Email id or Updates</p>
+            <form action="" method="post">
+              <input type="email" name="email"><input type="submit" value="Subscribe">
+            </form>
+          </div>
+
+        </div>
+      </div>
+    </div>
+
+    <div class="container d-md-flex py-4">
+
+      <div class="me-md-auto text-center text-md-start">
+        <div class="copyright">
+          &copy; Copyright <strong><span>Mentor</span></strong>. All Rights Reserved
+        </div>
+        <div class="credits">
+          <!-- All the links in the footer should remain intact. -->
+          <!-- You can delete the links only if you purchased the pro version. -->
+          <!-- Licensing information: https://bootstrapmade.com/license/ -->
+          <!-- Purchase the pro version with working PHP/AJAX contact form: https://bootstrapmade.com/mentor-free-education-bootstrap-theme/ -->
+          Designed by <a href="https://bootstrapmade.com/">BootstrapMade</a>
+        </div>
+      </div>
+      <div class="social-links text-center text-md-right pt-3 pt-md-0">
+        <a href="#" class="twitter"><i class="bx bxl-twitter"></i></a>
+        <a href="#" class="facebook"><i class="bx bxl-facebook"></i></a>
+        <a href="#" class="instagram"><i class="bx bxl-instagram"></i></a>
+        <a href="#" class="google-plus"><i class="bx bxl-skype"></i></a>
+        <a href="#" class="linkedin"><i class="bx bxl-linkedin"></i></a>
+      </div>
+    </div>
+  </footer>
+  <!-- End Footer -->
+
+  <div id="preloader"></div>
+  <a href="#" class="back-to-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
+
+  <!-- Vendor JS Files -->
+  <script src="assets/vendor/purecounter/purecounter.js"></script>
+  <script src="assets/vendor/aos/aos.js"></script>
+  <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
+  <script src="assets/vendor/php-email-form/validate.js"></script>
+
+  <!-- Template Main JS File -->
+  <script src="assets/js/main.js"></script>
+
+</body>
+
+</html>

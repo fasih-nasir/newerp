@@ -1,0 +1,50 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Funnel+Display:wght@300..800&display=swap');
+:root{
+    --bg:#5fcf80;
+}
+body {
+ font-family: "Funnel Display", sans-serif !important;
+  color: #313131 !important;
+  /* font-family: "Nunito", serif !important; */
+  margin: 0px;
+  padding: 0px;
+  background-color: rgb(241, 241, 241) !important;
+}
+
+.siderbar{
+    margin: 4% 0% !important;
+    height: 97vh !important;
+    border-radius: 20px !important;
+}
+.siderbar .nav-item .nav-link{
+    font-size: 16px !important;
+    margin: 10px 0px !important;
+color:rgb(136, 133, 133) !important;
+}
+.bg_light{
+    background-color: #ffffff !important;
+}
+.h_97vh{
+    border-radius: 20px !important;
+
+    height: 97vh !important;
+}
+.border-radius{
+    border-radius: 20px !important;
+
+}
+
+.dead_lines_css{
+    transition: 0.8s ease-in-out !important;
+  font-size:18px;
+animation: 4s linear infinite dead_line;
+}
+@keyframes dead_line {
+    0%{transform: scale(0.9);}
+    50%{transform: scale(1);
+    background-color: ;
+    }
+    0%{transform: scale(0.9);}
+
+}

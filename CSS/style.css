@@ -6,7 +6,7 @@ body {
   /* font-family: "Nunito", serif !important; */
   margin: 0px;
   padding: 0px;
-}z
+}
 
 .color-2 {
   color: var(--color2) !important;
@@ -642,7 +642,9 @@ border-radius: 20px;
     font-size: 96px !important;
   }
 }
-
+.table_s{
+  font-size: 13px !important;
+}
 .bg-col {
   background-color: #5fcf80 !important;
 }
