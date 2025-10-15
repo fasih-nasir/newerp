@@ -1,3 +1,4 @@
+import {  signInWithEmailAndPassword , db , auth,updateDoc, deleteDoc,getDoc,doc ,collection, addDoc, getDocs ,Timestamp  } from "./firebaseconfig.js";
 
 // ======= LOADER JS START ======= 
 document.addEventListener("DOMContentLoaded", () => {
@@ -7,7 +8,7 @@ document.addEventListener("DOMContentLoaded", () => {
   if (loader) {
     setTimeout(() => {
       loader.classList.add("rem");
-    }, 2500); // 3 seconds
+    }, 0); // 3 seconds
   }
 });
 // ======= LOADER JS END ======= 
@@ -49,19 +50,95 @@ const scrollProgress = (window.scrollY / a) * 99;
 
   
 // slider
-
 // ================= HEADER CODE START ======================
-var head=document.getElementById("header")
+var head = document.getElementById("header");
 
-
-if(head){
+if (head) {
   fetch("/header.html")
-.then(data => data.text())
+    .then(data => data.text())
+    .then(async (e) => {  // make async here
+      head.innerHTML = e;
 
-.then((e)=>{
-head.innerHTML=e
-  
-})
+      var arr_dropdown = [];
+
+      // =================  FETCH CODE START =============
+      async function fetchDropdownData() {
+        try {
+          const querySnapshot = await getDocs(collection(db, 'dropdown'));
+          querySnapshot.forEach((doc) => {
+            arr_dropdown.push({ ...doc.data() });
+          });
+          console.log("Dropdown Data Loaded:", arr_dropdown);
+          renderNavbar(); // ✅ call function after data fetched
+        } catch (error) {
+          console.error("Error getting documents: ", error);
+        }
+      }
+async function fetchPages() {
+  try {
+    const querySnapshot = await getDocs(collection(db, "pages"));
+    const pages = [];
+    querySnapshot.forEach((doc) => {
+      pages.push({ id: doc.id, ...doc.data() });
+    });
+
+    console.log("✅ Pages fetched:", pages);
+    return pages;
+  } catch (error) {
+    console.error("❌ Error fetching pages:", error);
+  }
+}
+
+// ✅ Call function
+fetchPages();
+      await fetchDropdownData();
+      // ================= FETCH CODE END ==================
+
+      function renderNavbar() {
+        var navbar = document.getElementById("navbar");
+        if (!navbar) {
+          console.error("Navbar element not found!");
+          return;
+        }
+
+        navbar.innerHTML = `
+          <ul class="navbar-nav mx-auto mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link" aria-current="page" href="index.html">Home</a>
+              <span class="navhover"></span>
+            </li>
+
+            <!-- ==================== CODE FOR DROPDOWN CODE START ==================== -->
+         ${arr_dropdown.map(item => {
+  return `
+    <li class="nav-item dropdown">
+      <a class="nav-link dropdown-toggle" href="${item.dropdown_link}" 
+         role="button" data-bs-toggle="dropdown" aria-expanded="false">
+         ${item.dropdown_name}
+      </a>
+      <ul class="dropdown-menu">
+        <li><a class="dropdown-item" href="${item.dropdown_link}">${item.dropdown_name}</a></li>
+      </ul>
+      <span class="navhover"></span>
+    </li>
+  `;
+}).join('')}
+
+
+            <!-- ==================== CODE FOR DROPDOWN CODE END ==================== -->
+            
+            <li class="nav-item">
+              <a class="nav-link" href="about.html">About</a>
+              <span class="navhover"></span>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="contact-us.html">Contact Us</a>
+              <span class="navhover"></span>
+            </li>
+          </ul>
+        `;
+      }
+    });
 }
 // ================= HEADER CODE END ======================
 
